@@ -174,8 +174,3 @@ This ensures high-quality places are prioritized while still considering popular
 - [ ] Map visualization of recommendations
 - [ ] Export itineraries to PDF
 - [ ] User preference learning over time
-
-
-Your Name - [@yourtwitter](https://twitter.com/yourhandle)
-
-Project Link: [https://github.com/YOUR_USERNAME/travel-rec-system](https://github.com/YOUR_USERNAME/travel-rec-system)
