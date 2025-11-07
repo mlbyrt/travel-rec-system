@@ -1,0 +1,19 @@
+# API Keys - NEVER COMMIT!
+config/api_keys.py
+
+# Data files
+data/
+*.parquet
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/config/api_keys.py
