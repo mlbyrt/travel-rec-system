@@ -2,7 +2,7 @@
 
 A travel recommendation system for Boston and Miami that provides personalized place recommendations based on user preferences, budget, and trip duration.
 
-## 🎯 Features
+## Features
 
 - **Personalized Recommendations**: Filter by categories (food, cultural, nightlife, etc.) and budget level
 - **Smart Caching**: Efficient API response caching to minimize costs and improve performance
@@ -12,7 +12,7 @@ A travel recommendation system for Boston and Miami that provides personalized p
 - **Multi-Day Itineraries**: Automatically generates day-by-day travel plans
 - **200+ Places**: Comprehensive dataset for Boston and Miami
 
-## 🛠️ Technologies
+## Technologies
 
 - **Python 3.8+**
 - **Pandas**: Data processing and analysis
@@ -20,7 +20,7 @@ A travel recommendation system for Boston and Miami that provides personalized p
 - **Yelp Fusion API**: Reviews, ratings, and business information
 - **Parquet**: Efficient data caching and storage
 
-## 📁 Project Structure
+## Project Structure
 ```
 travel-rec-system/
 ├── config/
@@ -45,7 +45,7 @@ travel-rec-system/
 └── requirements.txt           # Python dependencies
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -87,7 +87,7 @@ travel-rec-system/
    python demo_recommendations.py
 ```
 
-## 💡 Usage Examples
+## Usage Examples
 
 ### Basic Recommendation
 ```python
@@ -127,7 +127,7 @@ itinerary = engine.create_itinerary(
 engine.print_itinerary(itinerary)
 ```
 
-## 📊 Recommendation Algorithm
+## Recommendation Algorithm
 
 The system uses **content-based filtering** with a weighted scoring system:
 
@@ -139,7 +139,7 @@ score = (rating * 0.7) + (log(review_count) / max_log * 0.3)
 
 This ensures high-quality places are prioritized while still considering popularity.
 
-## 💰 Budget Tiers
+## Budget Tiers
 
 | Level | Name | Range | Description |
 |-------|------|-------|-------------|
@@ -148,7 +148,7 @@ This ensures high-quality places are prioritized while still considering popular
 | 3 | Comfortable | $150-300/day | Most attractions, nice restaurants |
 | 4 | Luxury | $300+/day | Premium experiences, fine dining |
 
-##  Available Categories
+## Available Categories
 
 - **leisure**: Spa, beach, resort, relaxation
 - **adventure**: Hiking, water sports, outdoor activities
@@ -160,12 +160,12 @@ This ensures high-quality places are prioritized while still considering popular
 - **shopping**: Malls, markets, boutiques
 - **family**: Zoo, aquarium, kid-friendly activities
 
-## 🌆 Supported Cities
+## Supported Cities
 
 - Boston, MA
 - Miami, FL
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 - [ ] Add more cities (NYC, SF, LA, etc.)
 - [ ] Web UI with Streamlit
